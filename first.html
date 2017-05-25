@@ -1,0 +1,103 @@
+<html>
+<head>
+<title> FIRST HTML PAGE </title>
+
+<link rel="stylesheet" href="styles.css"> 
+
+
+</head>
+<body>
+
+<a href="https://www.google.com">GOOGLE</a>
+<h1> THis is a <i style="color:red;">heading</i> . </h1>
+
+
+<p id="p01" title="this is para"> <b>Paragraph</b>    </p>
+
+<marquee onmouseover="this.stop()" onmouseout="this.start()" behavior="scroll" direction="right" scrollamount="2"> OOOO </marquee>
+<u>HELLO</u>
+<br>
+
+<mark><strong><em> This is</mark> <ins>emphasized</ins> </em></strong> 
+
+<br>
+<strong> H<sub>2</sub>O.  </strong>
+
+<br>
+<p id="p02"><q> I have a dream.! </q></p>
+
+
+
+<script>
+function msg(){
+
+  alert("HELLO WORLD.");
+}
+
+
+</script>
+
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Personal information:</legend>
+    User name:<br>
+    <input type="text" name="username"><br>
+    Password :<br>
+    <input type="password" name="password" ><br><br>
+<select name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab" selected>Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset">
+<button type="button" 	onclick="msg()">Click Me!</button>
+  </fieldset>
+</form>
+
+
+
+<form action="/action_page.php">
+  <input list="browsers">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Firebase">
+    <option value="Safari">
+  </datalist> 
+</form>
+
+<form action="/action_page.php">
+  Username: <input type="text" name="user">
+  Encryption: <keygen name="security">
+  <input type="submit">
+</form>
+
+
+
+<form>
+  <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+  <input type="checkbox" name="vehicle2" value="Car"> I have a car 
+</form>
+
+
+<form>
+  Select your favorite color:
+  <input type="color" name="favcolor">
+</form>
+
+
+<<form>
+  Birthday (month and year):
+  <input type="month" name="bdaymonth">
+</form>
+
+
+</body>
+
+
+</html>
